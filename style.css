@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
 *
 {
     margin: 0;
@@ -59,7 +59,7 @@ li
     color: white;
     margin: 35px auto;
     border-radius: 10px;
-    background-image: url(wallpaper\ for\ computer.jpeg);
+    background-image: url(bg.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,6 +74,8 @@ li
     padding-left: 3%;
     padding-top: 2%;
     margin-bottom: 30px;
+    letter-spacing: 3px;
+    font-family: Roboto;
 }
 .list
 {
@@ -150,12 +152,13 @@ li
 {
     display: flex;
     gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
-
 
 
 #progress-el
 {
-    min-width: 75%;
+    min-width: 50%;
     cursor: pointer;
 }
